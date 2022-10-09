@@ -49,7 +49,7 @@ public class Trader<T> {
      *       object of type T and adds it to this Trader's wishlist.
      */
     public void addToWishlist(T item){
-        this.inventory.add(item);
+        this.wishlist.add(item);
     }
 
 
